@@ -11,7 +11,7 @@ export default class Header extends Component {
           © {new Date().getFullYear()} Pixle Converter, Inc
         </p>
         <a
-          href="/"
+          href="/pixel-converter"
           className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-lite text-decoration-none"
         >
           {" "}
@@ -48,7 +48,7 @@ export default class Header extends Component {
 
         <ul className="nav col-md-4 justify-content-end">
           <li className="nav-item">
-            <a href="/" className="nav-link px-2 text-muted">
+            <a href="/pixel-converter" className="nav-link px-2 text-muted">
               Home
             </a>
           </li>

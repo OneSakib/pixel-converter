@@ -8,7 +8,7 @@ export default class Header extends Component {
     return (
       <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/pixel-converter">
           <svg
             width="50px"
             height="50px"
@@ -53,7 +53,7 @@ export default class Header extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="/pixel-converter">
                   Home
                 </a>
               </li>
